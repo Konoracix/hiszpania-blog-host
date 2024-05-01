@@ -1,95 +1,45 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { VT323 } from 'next/font/google'
+import { Poppins } from "next/font/google";
+import Post from '@/components/Post/Post'
+import Link from "next/link";
+
+const vt323 = VT323({ subsets: ['latin'], weight: '400' })
+// const poppins = Poppins({weight: '400', subsets: ['latin']})
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+  // return <div className={styles.imageContainer} >
+		return <>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+			{/* <div className={poppins.className}> */}
+			<div>
+				
+				<div className={styles.mainPageTitle}>Zagraniczne praktyki zawodowe w ZSŁ</div>
+			</div>
+			{/* </div> */}
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+			<div className={styles.flags}>
+				<img className={styles.flag} src="flaga-hiszpania.png"></img>
+				<img className={styles.unia} src="unia.png"></img>
+				{/* <img className={styles.flag} src="logo-zsl.png"></img> */}
+				<img className={styles.flag} src="flaga-polska.png"></img>
+			</div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+			<div className={styles.mainImageContainer}>
+				<img className={styles.mainImage} src="main.jpg" alt="asd" />
+			</div>
+			<h1 style={{padding: "5.3vh 0"}}>Posty</h1>
+			<div className={styles.blogContainer}>
+				<Post title="Ja po siłowni :)" src="post1.jpeg">Jest pompa!!! 💪💪🏋️‍♂️🏋️‍♂️🏋️‍♂️. Łapa siedzi. MASŁO!!!! 🔥z💃</Post>
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/tytus'}>
+					<Post title="Tytus" src="post2.jpg">Jan Rzepicha</Post>
+				</Link>
+				<Post title="To ja" src="post3.png">Ja przed każdym niemieckim😢😿</Post>
+				<Post title="Trzech typów podcast odcinek nr 1.mp4" src="post4.jpg">
+					Witajcie misie kolorowe! 🐻 Czas na kolejny odcinek naszego podcastu 3 typów podcast! 🎧 Dziś przygotowaliśmy dla was coś naprawdę ekscytującego! 🌟 Rozmawialiśmy między innymi o jednej takiej co poleciała na e46, o wojnie w Izraelu i o przepisach na gotowane jajka 🥚🍳.
+				</Post>
+			</div>
+		</>
+	// </div>
 }

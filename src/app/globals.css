@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -72,18 +72,26 @@
     --card-border-rgb: 200, 200, 200;
   }
 }
-
+*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
-html,
 body {
   max-width: 100vw;
+	min-height: 100vh;
   overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	/* cursor: wait; */
+align-items: center;
 }
+Link{
+	text-decoration: none;
+}
+/*
+html,
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -104,4 +112,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
