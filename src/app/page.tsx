@@ -27,18 +27,24 @@ export default function Home() {
 			</div>
 
 			<div className={styles.mainImageContainer}>
-				<img className={styles.mainImage} src="main.jpg" alt="asd" />
+				<img className={styles.mainImage} style={{width: "70vw"}} src="zdjecieGlowne.jpg" alt="asd" />
 			</div>
 			<h1 style={{padding: "5.3vh 0"}}>Posty</h1>
 			<div className={styles.blogContainer}>
-				<Post title="Ja po siłowni :)" src="post1.jpeg">Jest pompa!!! 💪💪🏋️‍♂️🏋️‍♂️🏋️‍♂️. Łapa siedzi. MASŁO!!!! 🔥z💃</Post>
+				{/* <Post title="Ja po siłowni :)" src="post1.jpeg">Jest pompa!!! 💪💪🏋️‍♂️🏋️‍♂️🏋️‍♂️. Łapa siedzi. MASŁO!!!! 🔥z💃</Post>
 				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/tytus'}>
 					<Post title="Tytus" src="post2.jpg">Jan Rzepicha</Post>
 				</Link>
 				<Post title="To ja" src="post3.png">Ja przed każdym niemieckim😢😿</Post>
 				<Post title="Trzech typów podcast odcinek nr 1.mp4" src="post4.jpg">
 					Witajcie misie kolorowe! 🐻 Czas na kolejny odcinek naszego podcastu 3 typów podcast! 🎧 Dziś przygotowaliśmy dla was coś naprawdę ekscytującego! 🌟 Rozmawialiśmy między innymi o jednej takiej co poleciała na e46, o wojnie w Izraelu i o przepisach na gotowane jajka 🥚🍳.
-				</Post>
+				</Post> */}
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/sacromonte'}>
+		
+					<Post title="Sacromonte" src="sacromonte/2.jpg">
+						Sacromonte w Grenadzie to miejsce pełne historii i kultury, również jego znane jaskinie, które ...
+					</Post>
+				</Link>
 			</div>
 		</>
 	// </div>
