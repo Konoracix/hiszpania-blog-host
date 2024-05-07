@@ -40,9 +40,13 @@ export default function Home() {
 					Witajcie misie kolorowe! 🐻 Czas na kolejny odcinek naszego podcastu 3 typów podcast! 🎧 Dziś przygotowaliśmy dla was coś naprawdę ekscytującego! 🌟 Rozmawialiśmy między innymi o jednej takiej co poleciała na e46, o wojnie w Izraelu i o przepisach na gotowane jajka 🥚🍳.
 				</Post> */}
 				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/sacromonte'}>
-		
 					<Post title="Sacromonte" src="sacromonte/2.jpg">
 						Sacromonte w Grenadzie to miejsce pełne historii i kultury, również jego znane jaskinie, które ...
+					</Post>
+				</Link>
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/loscahorros'}>
+					<Post title="Los Cahorros" src="losCahorros/15.jpg">
+						Wycieczka w góry szlakiem Los Cahorros to niezapomniane doświadczenie dla miłośników przyrody i aktywnego wypoczynku. Szlak ten ...
 					</Post>
 				</Link>
 			</div>
