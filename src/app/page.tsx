@@ -44,9 +44,22 @@ export default function Home() {
 						Sacromonte w Grenadzie to miejsce pełne historii i kultury, również jego znane jaskinie, które ...
 					</Post>
 				</Link>
+
 				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/loscahorros'}>
-					<Post title="Los Cahorros" src="losCahorros/15.jpg">
+					<Post title="Los Cahorros" src="losCahorros/14.jpg">
 						Wycieczka w góry szlakiem Los Cahorros to niezapomniane doświadczenie dla miłośników przyrody i aktywnego wypoczynku. Szlak ten ...
+					</Post>
+				</Link>
+
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/nerja'}>
+					<Post title="Nerja" src="nerja/1.jpg">
+					Wspaniale spędziliśmy dzień podczas wizyty w jaskiniach Nerja w Hiszpanii. Podziwialiśmy niezwykłe formacje skalne ...
+					</Post>
+				</Link>
+
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/ninodelaspinturas'}>
+					<Post title="Niño de las Pinturas" src="graficiarz/21.jpg">
+					Dzisiaj mieliśmy przyjemność odkryć magiczny świat street artu w Hiszpanii, podążając śladami lokalnego geniusza graffiti - Niño de las Pinturas'a. Ta barwna wycieczka ...
 					</Post>
 				</Link>
 			</div>
