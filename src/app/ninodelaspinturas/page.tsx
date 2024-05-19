@@ -6,7 +6,7 @@ export default function loscahorros() {
 
 			
 			<div className={styles.mainPageTitle}>Niño de las Pinturas</div>
-			<div className={styles.blogPost}>Dzisiaj mieliśmy przyjemność odkryć magiczny świat street artu w Hiszpanii, podążając śladami lokalnego geniusza graffiti - Niño de las Pinturas'a. Ta barwna wycieczka po Granadzie odkryła przed nami nowe oblicze miasta i otworzyła oczy na niezwykłą moc sztuki ulicznej. Podróżując szlakiem dzieł Niño de las Pinturas'a, odkryliśmy nie tylko piękno sztuki ulicznej, ale także moc jej transformacji i oddziaływania na społeczeństwo. To niezwykłe doświadczenie pozwoliło nam spojrzeć na miasto z zupełnie innej perspektywy i pozwoliło docenić niezwykłość lokalnego talentu.</div>
+			<div className={styles.blogPost}>Dzisiaj mieliśmy przyjemność odkryć magiczny świat street artu w Hiszpanii, podążając śladami lokalnego geniusza graffiti - Niño de las Pinturas&apos;a. Ta barwna wycieczka po Granadzie odkryła przed nami nowe oblicze miasta i otworzyła oczy na niezwykłą moc sztuki ulicznej. Podróżując szlakiem dzieł Niño de las Pinturas&apos;a, odkryliśmy nie tylko piękno sztuki ulicznej, ale także moc jej transformacji i oddziaływania na społeczeństwo. To niezwykłe doświadczenie pozwoliło nam spojrzeć na miasto z zupełnie innej perspektywy i pozwoliło docenić niezwykłość lokalnego talentu.</div>
 			<div className={styles.mainImageContainer}>
 				<img className={styles.mainImage} src="graficiarz/21.jpg" style={{width: "50vw"}} alt="asd" />
 			</div>

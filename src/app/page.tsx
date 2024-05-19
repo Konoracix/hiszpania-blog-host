@@ -59,7 +59,7 @@ export default function Home() {
 
 				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/ninodelaspinturas'}>
 					<Post title="Niño de las Pinturas" src="graficiarz/21.jpg">
-					Dzisiaj mieliśmy przyjemność odkryć magiczny świat street artu w Hiszpanii, podążając śladami lokalnego geniusza graffiti - Niño de las Pinturas'a. Ta barwna wycieczka ...
+					Dzisiaj mieliśmy przyjemność odkryć magiczny świat street artu w Hiszpanii, podążając śladami lokalnego geniusza graffiti - Niño de las Pinturas&apos;a. Ta barwna wycieczka ...
 					</Post>
 				</Link>
 			</div>

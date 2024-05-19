@@ -6,7 +6,7 @@ export default function loscahorros() {
 
 			
 			<div className={styles.mainPageTitle}>Nerja</div>
-			<div className={styles.blogPost}>Wspaniale spędziliśmy dzień podczas wizyty w jaskiniach Nerja w Hiszpanii. Podziwialiśmy niezwykłe formacje skalne, kryształowe stalaktyty i stalagmity, które tworzyły magiczną atmosferę. Najbardziej zapadł nam w pamięć gigantyczny stalagmit o imieniu "Sala de la Catacumba", który robił ogromne wrażenie. Po zwiedzeniu jaskiń relaksowaliśmy się na pobliskiej plaży, delektując się pięknym widokiem Morza Śródziemnego. To był naprawdę niezapomniany dzień pełen przygód i fascynujących odkryć!</div>
+			<div className={styles.blogPost}>Wspaniale spędziliśmy dzień podczas wizyty w jaskiniach Nerja w Hiszpanii. Podziwialiśmy niezwykłe formacje skalne, kryształowe stalaktyty i stalagmity, które tworzyły magiczną atmosferę. Najbardziej zapadł nam w pamięć gigantyczny stalagmit o imieniu &quot;Sala de la Catacumba&quot;, który robił ogromne wrażenie. Po zwiedzeniu jaskiń relaksowaliśmy się na pobliskiej plaży, delektując się pięknym widokiem Morza Śródziemnego. To był naprawdę niezapomniany dzień pełen przygód i fascynujących odkryć!</div>
 			<div className={styles.mainImageContainer}>
 				<img className={styles.mainImage} src="nerja/1.jpg" style={{width: "50vw"}} alt="asd" />
 			</div>
