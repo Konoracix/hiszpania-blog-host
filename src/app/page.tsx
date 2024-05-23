@@ -39,6 +39,17 @@ export default function Home() {
 				<Post title="Trzech typów podcast odcinek nr 1.mp4" src="post4.jpg">
 					Witajcie misie kolorowe! 🐻 Czas na kolejny odcinek naszego podcastu 3 typów podcast! 🎧 Dziś przygotowaliśmy dla was coś naprawdę ekscytującego! 🌟 Rozmawialiśmy między innymi o jednej takiej co poleciała na e46, o wojnie w Izraelu i o przepisach na gotowane jajka 🥚🍳.
 				</Post> */}
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/yoga'}>
+					<Post title="Yoga" src="yoga/2.jpg">
+					Niedawno miełam okazję wziąć udział w zajęciach z Bollywood Yogi i było to niezwykłe doświadczenie, które połączyło energetyczne tańce Bollywood z relaksującymi technikami jogi. Zajęcia odbywały się w lokalnym parku, gdzie ...
+					</Post>
+				</Link>
+
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/podroz'}>
+					<Post title="Podróż" src="podroz/3.jpg">
+					Mimo że Kraków jest jednym z najpiękniejszych miast w Polsce, czasami człowiek potrzebuje trochę słońca i egzotyki. Dlatego w drodze do słonecznej Granady musieliśmy przelecieć z Krakowa do Malagi, dwóch uroczych miast ...</Post>
+				</Link>
+				
 				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/sacromonte'}>
 					<Post title="Sacromonte" src="sacromonte/2.jpg">
 						Sacromonte w Grenadzie to miejsce pełne historii i kultury, również jego znane jaskinie, które ...
@@ -62,6 +73,7 @@ export default function Home() {
 					Dzisiaj mieliśmy przyjemność odkryć magiczny świat street artu w Hiszpanii, podążając śladami lokalnego geniusza graffiti - Niño de las Pinturas&apos;a. Ta barwna wycieczka ...
 					</Post>
 				</Link>
+
 			</div>
 		</>
 	// </div>

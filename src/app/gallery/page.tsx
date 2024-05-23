@@ -92,6 +92,33 @@ export default function Gallery() {
 				<BlogImage src="nerja/13.jpg"></BlogImage>
 				<BlogImage src="nerja/14.jpg"></BlogImage>
 
+				<BlogImage src="yoga/1.jpg"></BlogImage>
+				<BlogImage src="yoga/3.jpg"></BlogImage>
+				<BlogImage src="yoga/4.jpg"></BlogImage>
+				<BlogImage src="yoga/5.jpg"></BlogImage>
+				<BlogImage src="yoga/6.jpg"></BlogImage>
+				<BlogImage src="yoga/2.jpg"></BlogImage>
+
+				<BlogImage src="podroz/1.jpg"></BlogImage>
+				<BlogImage src="podroz/3.jpg"></BlogImage>
+				<BlogImage src="podroz/4.jpg"></BlogImage>
+				<BlogImage src="podroz/5.jpg"></BlogImage>
+				<BlogImage src="podroz/6.jpg"></BlogImage>
+				<BlogImage src="podroz/7.jpg"></BlogImage>
+				<BlogImage src="podroz/8.jpg"></BlogImage>
+				<BlogImage src="podroz/10.jpg"></BlogImage>
+				<BlogImage src="podroz/11.jpg"></BlogImage>
+				<BlogImage src="podroz/12.jpg"></BlogImage>
+				<BlogImage src="podroz/13.jpg"></BlogImage>
+				<BlogImage src="podroz/14.jpg"></BlogImage>
+				<BlogImage src="podroz/15.jpg"></BlogImage>
+				<BlogImage src="podroz/16.jpg"></BlogImage>
+				<BlogImage src="podroz/17.jpg"></BlogImage>
+				<BlogImage src="podroz/2.jpg"></BlogImage>
+				<BlogImage src="podroz/18.jpg"></BlogImage>
+				<BlogImage src="podroz/19.jpg"></BlogImage>
+				<BlogImage src="podroz/20.jpg"></BlogImage>
+
 			{/* <BlogImage src="post4.jpg"></BlogImage>
 			<BlogImage src="main.jpg"></BlogImage>
 			<BlogImage src="main.jpg"></BlogImage>
