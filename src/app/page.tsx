@@ -74,6 +74,12 @@ export default function Home() {
 					</Post>
 				</Link>
 
+				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/cordoba'}>
+					<Post title="Cordoba" src="cordoba/6.JPG">
+					5 dni po naszym przyjeździe ku dalszemu zwiedzaniu Hiszpańskiej Andaluzji, wybraliśmy się wraz ze grupą ze Rybnika wpław północnemu zachodowi, aż ponad 200km do miasta Cordoba. W tracie wczesnej jazdy, ścigani przez deszcz poranny deszcz w Granadzie dotarliśmy ...
+					</Post>
+				</Link>
+
 			</div>
 		</>
 	// </div>
