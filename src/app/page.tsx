@@ -56,11 +56,11 @@ export default function Home() {
 					</Post>
 				</Link>
 
-				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/loscahorros'}>
+				{/* <Link style={{ textDecoration: 'none', color: 'black'}} href={'/loscahorros'}>
 					<Post title="Los Cahorros" src="losCahorros/14.jpg">
 						Wycieczka w góry szlakiem Los Cahorros to niezapomniane doświadczenie dla miłośników przyrody i aktywnego wypoczynku. Szlak ten ...
 					</Post>
-				</Link>
+				</Link> */}
 
 				<Link style={{ textDecoration: 'none', color: 'black'}} href={'/nerja'}>
 					<Post title="Nerja" src="nerja/1.jpg">
